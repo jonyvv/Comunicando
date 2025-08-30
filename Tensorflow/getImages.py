@@ -8,7 +8,7 @@ labels = ['hello','thanks','yes','no','iloveyou']
 number_imgs = 15
 
 for label in labels:
-    os.mkdir(r"Tensorflow\\workspace\\images\collectedimages\\"+label)
+    os.mkdir("Tensorflow\\workspace\\images\collectedimages\\"+label)
     cap = cv2.VideoCapture(0)
     print('Collecting images for {}'.format(label))
     time.sleep(5)
